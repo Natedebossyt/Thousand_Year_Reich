@@ -1,0 +1,131 @@
+{
+  "country": "Thousand Year Reich",
+  "inventory": {
+    "resources": {
+      "iron": {
+        "amount": 0,
+        "unit": "tons",
+        "production_per_day": 0,
+        "consumption_per_day": 0.005
+      },
+      "water": {
+        "amount": ,
+        "unit": "gallons",
+        "production_per_day": 3,
+        "consumption_per_day": 1800
+      },
+      "food": {
+        "amount": 0,
+        "unit": "lbs",
+        "production_per_day": 0.05,
+        "consumption_per_day": 40
+      },
+      "fuel": {
+        "amount": 0,
+        "unit": "gallons",
+        "production_per_day": 0.001,
+        "consumption_per_day": 14
+      },
+      "burnable-fuel": {
+        "amount": 1,
+        "unit": "lbs",
+        "production_per_day": 1,
+        "consumption_per_day": 0.2
+      },
+      "electricity": {
+        "amount": 64400,
+        "unit": "watts",
+        "production_per_day": 0,
+        "consumption_per_day": 64400
+      },
+      "gold": {
+        "amount": 0.1,
+        "unit": "lbs",
+        "production_per_day": 0,
+        "consumption_per_day": 0
+      }
+    }
+  },
+  "military": {
+    "manpower": {
+      "active": 1,
+      "reserve": 2,
+      "conscripted": 3
+    },
+    "vessels": {
+      "land": {
+        "tanks": 0,
+        "armored_vehicles": 0.25,
+        "artillery": 1
+      },
+      "navy": {
+        "battleships": 0,
+        "submarines": 0,
+        "destroyers": 0,
+        "aircraft_carriers": 0
+      },
+      "air_force": {
+        "fighters": 0,
+        "bombers": 0,
+        "drones": 0,
+        "helicopters": 0
+      }
+    },
+    "technology_level": "Basic",
+    "readiness": "medium",
+    "defense_budget": 10
+  },
+  "diplomacy": {
+    "alliances": [
+      {
+        "name": "Axis",
+        "members": ["Thousand Year Reich"],
+        "type": "mutual gain, and defence.",
+        "active_since": "2025-05-31"
+      }
+    ],
+    "enemies": [
+      {
+        "name": ["United States", "Germany", "China"],
+        "conflict_type": "Arms Race",
+        "sanctions": false,
+        "currently_at_war": false
+      }
+    ],
+    "wars": [
+      {
+        "name": "Border claims with United States",
+        "start_date": "2025-05-31",
+        "status": "Ongoing",
+        "casualties": {
+          "Thousand Year Reich": 0,
+          "United States": 0
+        },
+        "territory_changes": "None",
+        "ceasefire_attempts": 0
+      }
+    ],
+    "diplomatic_relations": {
+      "United States": {
+        "relation": "tied",
+        "trade_volume": 90,
+        "last_meeting": "never"
+      },
+      "Mexico": {
+        "relation": "tied",
+        "trade_volume": 0,
+        "last_meeting": "never"
+      },
+      "Germany": {
+        "relation": "tied",
+        "trade_volume": 0,
+        "last_meeting": "never"
+      },
+      "China": {
+        "relation": "friendly",
+        "trade_volume": 9,
+        "last_meeting": "never"
+      },
+    }
+  }
+}
