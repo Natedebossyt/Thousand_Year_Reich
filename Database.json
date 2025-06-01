@@ -27,16 +27,16 @@
         "consumption_per_day": 14
       },
       "burnable-fuel": {
-        "amount": 1,
+        "amount": 3,
         "unit": "lbs",
-        "production_per_day": 1,
+        "production_per_day": 1.5,
         "consumption_per_day": 0.2
       },
       "electricity": {
-        "amount": 64400,
-        "unit": "watts",
+        "amount": 0,
+        "unit": "Kilowatts(KW)",
         "production_per_day": 0,
-        "consumption_per_day": 64400
+        "consumption_per_day": 300
       },
       "gold": {
         "amount": 0.1,
