@@ -9,7 +9,7 @@
         "consumption_per_day": 0.005
       },
       "water": {
-        "amount": ,
+        "amount": 0,
         "unit": "gallons",
         "production_per_day": 3,
         "consumption_per_day": 1800
@@ -125,7 +125,7 @@
         "relation": "friendly",
         "trade_volume": 9,
         "last_meeting": "never"
-      },
+      }
     }
   }
 }
